@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.tmp
+
+# Virtual environment
+.venv/
+
+# VS Code settings
+.vscode/
+
+# OS junk
+.DS_Store

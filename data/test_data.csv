@@ -1,0 +1,1001 @@
+org_id,user_id,credit_type,action,credits,timestamp
+org_000,user_000,api_call,deduct,32.0,10/29/2024 12:00 AM
+org_000,user_001,report_download,add,76.0,2024-11-24 00:00:00
+org_002,user_002,api_call,add,65.0,2024-12-17 00:00:00
+org_003,,report_download,deduct,29.0,32/13/2024
+org_004,user_004,api_call,deduct,44.0,11/05/2024 12:00 AM
+org_005,user_005,data_export,add,12.0,2024-11-18 00:00:00
+org_006,user_006,,deduct,6.0,not-a-date
+org_007,user_007,api_call,deduct,81.0,19-12-2024
+org_008,user_008,report_download,add,6.0,12/24/2024 12:00 AM
+org_009,user_009,api_call,add,13.0,18-11-2024
+org_000,user_010,data_export,add,48.0,11/15/2024 12:00 AM
+org_001,user_011,report_download,add,78.0,12/21/2024 12:00 AM
+org_002,user_012,api_call,add,60.0,18-11-2024
+org_003,user_013,report_download,add,88.0,2024-11-11 00:00:00
+org_004,user_014,data_export,deduct,35.0,10/09/2024 12:00 AM
+org_000,user_015,report_download,deduct,28.0,1734912000
+org_001,user_016,data_export,add,34.0,10/18/2024 12:00 AM
+org_002,user_017,report_download,deduct,96.0,1734134400
+org_003,user_018,data_export,deduct,29.0,32/13/2024
+org_004,user_019,api_call,add,20.0,12/20/2024 12:00 AM
+org_000,user_000,data_export,add,50.0,32/13/2024
+org_000,user_001,report_download,add,88.0,
+org_002,user_002,data_export,deduct,15.0,1730937600
+org_003,user_003,api_call,deduct,65.0,not-a-date
+org_004,user_004,data_export,add,20.0,11/17/2024 12:00 AM
+org_005,user_005,report_download,add,77.0,1731283200
+org_006,user_006,data_export,deduct,31.0,10/08/2024 12:00 AM
+org_007,user_007,api_call,add,94.0,2024-12-02 00:00:00
+org_008,user_008,api_call,add,85.0,not-a-date
+org_009,user_009,report_download,deduct,28.0,
+org_000,user_010,report_download,deduct,52.0,
+org_001,user_011,report_download,deduct,16.0,11/01/2024 12:00 AM
+org_002,user_012,api_call,add,76.0,2024-10-29 00:00:00
+org_003,user_013,report_download,add,30.0,2024-10-09 00:00:00
+org_004,user_014,api_call,add,36.0,1735084800
+org_000,user_015,api_call,deduct,32.0,1732924800
+org_001,user_016,api_call,deduct,46.0,1732406400
+org_002,user_017,api_call,,8.0,
+org_003,user_018,api_call,add,25.0,1733616000
+org_004,user_019,api_call,deduct,60.0,2024-11-01 00:00:00
+org_000,user_000,api_call,add,84.0,2024-12-09 00:00:00
+org_000,user_001,api_call,add,53.0,1733097600
+org_002,user_002,api_call,add,49.0,1727740800
+org_003,user_003,data_export,deduct,90.0,
+org_004,user_004,api_call,add,38.0,2024-10-28 00:00:00
+org_005,user_005,report_download,add,96.0,2024-11-10 00:00:00
+org_006,user_006,data_export,add,8.0,2024-12-05 00:00:00
+org_007,user_007,api_call,add,87.0,1730332800
+org_008,user_008,api_call,add,80.0,1728604800
+org_009,user_009,,deduct,34.0,
+org_000,user_010,api_call,deduct,51.0,
+org_001,user_011,data_export,deduct,97.0,2024-10-10 00:00:00
+org_002,user_012,report_download,add,10.0,12/08/2024 12:00 AM
+org_003,user_013,api_call,deduct,9.0,01-11-2024
+org_004,user_014,data_export,deduct,79.0,not-a-date
+org_000,user_015,data_export,add,18.0,2024-11-03 00:00:00
+org_001,user_016,report_download,add,35.0,not-a-date
+org_002,user_017,api_call,deduct,65.0,02-12-2024
+org_003,user_018,api_call,deduct,,2024-10-06 00:00:00
+org_004,user_019,api_call,deduct,21.0,abc123
+org_000,user_000,api_call,add,10.0,12/28/2024 12:00 AM
+org_000,user_001,data_export,add,56.0,2024-10-17 00:00:00
+org_002,user_002,api_call,deduct,27.0,12/27/2024 12:00 AM
+org_003,user_003,data_export,deduct,80.0,10/20/2024 12:00 AM
+org_004,user_004,api_call,deduct,4.0,
+org_005,user_005,data_export,add,35.0,
+org_006,user_006,api_call,deduct,29.0,1729900800
+org_007,user_007,api_call,add,4.0,12/24/2024 12:00 AM
+org_008,user_008,data_export,add,99.0,05-11-2024
+org_009,user_009,data_export,deduct,4.0,15-10-2024
+org_000,user_010,data_export,add,14.0,1734307200
+org_001,user_011,data_export,deduct,78.0,2024-12-05 00:00:00
+org_002,user_012,api_call,deduct,6.0,1735516800
+org_003,user_013,report_download,add,47.0,2024-11-25 00:00:00
+org_004,user_014,report_download,deduct,85.0,
+org_000,user_015,report_download,deduct,86.0,22-11-2024
+org_001,user_016,data_export,add,25.0,
+org_002,user_017,report_download,add,79.0,12-12-2024
+org_003,user_018,api_call,deduct,37.0,1729987200
+org_004,user_019,report_download,deduct,60.0,1732579200
+org_000,user_000,report_download,deduct,95.0,
+org_000,user_001,report_download,deduct,12.0,
+org_002,user_002,api_call,add,4.0,10/06/2024 12:00 AM
+org_003,user_003,api_call,deduct,54.0,not-a-date
+org_004,user_004,data_export,deduct,52.0,11/01/2024 12:00 AM
+org_005,user_005,api_call,add,100.0,11/24/2024 12:00 AM
+org_006,user_006,report_download,deduct,7.0,12/11/2024 12:00 AM
+org_007,user_007,data_export,add,60.0,abc123
+org_008,user_008,data_export,deduct,71.0,11/27/2024 12:00 AM
+org_009,user_009,data_export,deduct,97.0,
+org_000,user_010,report_download,deduct,81.0,31-10-2024
+org_001,user_011,report_download,deduct,31.0,04-11-2024
+org_002,user_012,api_call,add,20.0,1730246400
+org_003,user_013,report_download,add,9.0,1732320000
+org_004,user_014,data_export,deduct,8.0,1729987200
+org_000,user_015,report_download,add,98.0,1734048000
+org_001,user_016,data_export,deduct,97.0,1731974400
+org_002,user_017,report_download,add,63.0,29-10-2024
+org_003,user_018,api_call,deduct,44.0,
+org_004,user_019,report_download,add,60.0,abc123
+org_000,user_000,report_download,add,11.0,1734825600
+org_000,user_001,api_call,add,34.0,18-11-2024
+org_002,user_002,data_export,deduct,98.0,18-11-2024
+org_003,user_003,data_export,add,61.0,
+org_004,user_004,,add,84.0,
+org_005,user_005,api_call,add,26.0,not-a-date
+org_006,user_006,data_export,add,73.0,1730073600
+org_007,user_007,data_export,add,78.0,
+org_008,user_008,api_call,deduct,14.0,2024-12-14 00:00:00
+org_009,user_009,report_download,deduct,51.0,12/31/2024 12:00 AM
+org_000,user_010,report_download,add,14.0,29-12-2024
+org_001,user_011,report_download,add,73.0,06-10-2024
+org_002,user_012,report_download,deduct,9.0,
+org_003,user_013,data_export,deduct,14.0,25-11-2024
+org_004,user_014,report_download,add,56.0,
+org_000,user_015,data_export,deduct,60.0,
+org_001,user_016,data_export,add,12.0,1730764800
+org_002,user_017,data_export,deduct,44.0,1728000000
+org_003,user_018,api_call,deduct,28.0,15-11-2024
+org_004,user_019,report_download,deduct,72.0,not-a-date
+org_000,user_000,report_download,deduct,63.0,12/11/2024 12:00 AM
+org_000,user_001,report_download,deduct,58.0,2024-10-03 00:00:00
+org_002,user_002,data_export,add,40.0,32/13/2024
+org_003,user_003,report_download,deduct,55.0,10-12-2024
+org_004,user_004,data_export,deduct,40.0,11/02/2024 12:00 AM
+org_005,user_005,api_call,deduct,16.0,
+org_006,user_006,api_call,deduct,36.0,abc123
+org_007,user_007,api_call,deduct,30.0,11/16/2024 12:00 AM
+org_008,user_008,report_download,add,,2024-10-06 00:00:00
+org_009,user_009,report_download,add,82.0,2024-12-02 00:00:00
+org_000,user_010,report_download,deduct,61.0,1733011200
+org_001,user_011,api_call,deduct,62.0,2024-10-15 00:00:00
+org_002,user_012,api_call,add,20.0,32/13/2024
+org_003,user_013,,deduct,78.0,not-a-date
+org_004,user_014,data_export,deduct,57.0,32/13/2024
+org_000,user_015,report_download,add,79.0,10/13/2024 12:00 AM
+org_001,user_016,data_export,add,21.0,10/31/2024 12:00 AM
+org_002,user_017,api_call,,53.0,
+org_003,user_018,data_export,add,30.0,
+org_004,user_019,data_export,add,88.0,30-10-2024
+org_000,user_000,report_download,add,55.0,not-a-date
+org_000,user_001,data_export,add,10.0,10/08/2024 12:00 AM
+org_002,user_002,,deduct,57.0,1729036800
+,user_003,report_download,deduct,35.0,32/13/2024
+org_004,user_004,report_download,add,56.0,32/13/2024
+org_005,user_005,api_call,add,98.0,26-12-2024
+org_006,user_006,api_call,deduct,67.0,1734912000
+org_007,user_007,api_call,deduct,82.0,2024-12-02 00:00:00
+org_008,user_008,data_export,deduct,42.0,2024-12-25 00:00:00
+org_009,user_009,data_export,deduct,89.0,03-12-2024
+org_000,user_010,report_download,add,59.0,12-10-2024
+org_001,user_011,api_call,deduct,66.0,
+org_002,user_012,data_export,deduct,7.0,32/13/2024
+org_003,user_013,data_export,deduct,98.0,10/07/2024 12:00 AM
+org_004,user_014,api_call,deduct,57.0,1735430400
+org_000,user_015,report_download,add,91.0,21-10-2024
+org_001,user_016,report_download,deduct,12.0,2024-10-29 00:00:00
+org_002,user_017,report_download,add,64.0,31-12-2024
+org_003,user_018,data_export,deduct,62.0,11/30/2024 12:00 AM
+org_004,user_019,api_call,deduct,25.0,abc123
+org_000,user_000,api_call,deduct,99.0,23-11-2024
+org_000,user_001,data_export,add,37.0,abc123
+org_002,user_002,api_call,deduct,69.0,01-12-2024
+org_003,user_003,report_download,deduct,59.0,11/11/2024 12:00 AM
+org_004,user_004,report_download,deduct,30.0,2024-11-22 00:00:00
+org_005,user_005,data_export,deduct,50.0,
+org_006,user_006,api_call,add,65.0,15-12-2024
+org_007,user_007,data_export,add,68.0,2024-11-28 00:00:00
+org_008,user_008,data_export,add,10.0,30-11-2024
+org_009,user_009,report_download,deduct,84.0,11-10-2024
+org_000,user_010,report_download,deduct,41.0,
+org_001,user_011,data_export,add,80.0,10/09/2024 12:00 AM
+org_002,user_012,data_export,add,96.0,1728691200
+org_003,user_013,report_download,add,57.0,
+org_004,user_014,api_call,deduct,8.0,07-11-2024
+org_000,user_015,api_call,add,68.0,abc123
+org_001,user_016,api_call,add,11.0,1734480000
+org_002,user_017,api_call,deduct,75.0,10/19/2024 12:00 AM
+org_003,user_018,data_export,deduct,33.0,2024-12-25 00:00:00
+org_004,user_019,data_export,add,10.0,26-11-2024
+org_000,user_000,report_download,deduct,,1730505600
+org_000,user_001,api_call,deduct,62.0,10/14/2024 12:00 AM
+org_002,user_002,data_export,deduct,90.0,2024-11-07 00:00:00
+org_003,user_003,data_export,deduct,2.0,
+org_004,user_004,api_call,deduct,37.0,32/13/2024
+org_005,user_005,api_call,deduct,87.0,
+org_006,user_006,report_download,add,81.0,2024-12-22 00:00:00
+org_007,user_007,api_call,deduct,94.0,2024-10-17 00:00:00
+org_008,user_008,data_export,deduct,23.0,10/26/2024 12:00 AM
+org_009,user_009,data_export,deduct,22.0,1730505600
+org_000,user_010,report_download,deduct,15.0,2024-11-29 00:00:00
+org_001,user_011,api_call,deduct,72.0,2024-11-16 00:00:00
+org_002,user_012,api_call,deduct,69.0,1729036800
+org_003,user_013,report_download,deduct,75.0,
+org_004,user_014,report_download,add,61.0,abc123
+org_000,user_015,api_call,add,82.0,
+org_001,user_016,data_export,add,18.0,2024-10-06 00:00:00
+org_002,user_017,api_call,add,31.0,12/08/2024 12:00 AM
+org_003,user_018,data_export,deduct,76.0,1729382400
+org_004,user_019,data_export,deduct,,
+org_000,user_000,data_export,deduct,31.0,2024-11-16 00:00:00
+org_000,user_001,report_download,deduct,8.0,20-11-2024
+org_002,user_002,data_export,add,85.0,
+org_003,user_003,api_call,add,43.0,11/01/2024 12:00 AM
+org_004,user_004,api_call,add,98.0,12/10/2024 12:00 AM
+org_005,user_005,api_call,deduct,100.0,not-a-date
+org_006,user_006,api_call,deduct,23.0,
+org_007,user_007,api_call,add,46.0,32/13/2024
+org_008,user_008,data_export,add,17.0,not-a-date
+org_009,user_009,data_export,deduct,100.0,abc123
+org_000,user_010,report_download,add,79.0,
+org_001,user_011,report_download,deduct,59.0,2024-12-22 00:00:00
+org_002,user_012,data_export,deduct,88.0,1728864000
+org_003,user_013,api_call,add,42.0,12/17/2024 12:00 AM
+org_004,user_014,data_export,deduct,49.0,32/13/2024
+org_000,user_015,report_download,deduct,13.0,2024-12-29 00:00:00
+org_001,user_016,report_download,add,56.0,11/27/2024 12:00 AM
+org_002,user_017,data_export,deduct,54.0,13-10-2024
+org_003,user_018,report_download,deduct,48.0,
+org_004,user_019,api_call,add,11.0,1728691200
+org_000,user_000,report_download,deduct,17.0,2024-12-11 00:00:00
+org_000,user_001,report_download,deduct,86.0,1729036800
+org_002,user_002,data_export,add,37.0,16-12-2024
+org_003,user_003,report_download,add,20.0,1734998400
+org_004,user_004,data_export,deduct,15.0,not-a-date
+org_005,user_005,report_download,add,78.0,
+org_006,user_006,api_call,deduct,90.0,09-11-2024
+org_007,user_007,api_call,add,73.0,1734998400
+org_008,user_008,report_download,add,12.0,12/07/2024 12:00 AM
+org_009,user_009,data_export,deduct,21.0,17-11-2024
+org_000,user_010,report_download,add,7.0,10/20/2024 12:00 AM
+org_001,user_011,api_call,add,35.0,
+org_002,user_012,report_download,deduct,54.0,11/04/2024 12:00 AM
+org_003,user_013,api_call,deduct,56.0,15-10-2024
+org_004,user_014,report_download,deduct,68.0,25-12-2024
+org_000,user_015,data_export,add,1.0,27-10-2024
+org_001,user_016,api_call,deduct,38.0,2024-11-11 00:00:00
+org_002,user_017,report_download,deduct,23.0,1729123200
+org_003,user_018,api_call,deduct,10.0,
+org_004,user_019,api_call,deduct,10.0,32/13/2024
+org_000,user_000,report_download,deduct,38.0,1728950400
+org_000,user_001,api_call,deduct,89.0,2024-11-16 00:00:00
+org_002,user_002,,deduct,76.0,not-a-date
+org_003,user_003,report_download,deduct,29.0,11/12/2024 12:00 AM
+org_004,user_004,report_download,add,68.0,12/05/2024 12:00 AM
+org_005,user_005,data_export,deduct,94.0,12/22/2024 12:00 AM
+org_006,user_006,api_call,deduct,,not-a-date
+org_007,user_007,report_download,add,23.0,1734652800
+org_008,user_008,report_download,deduct,88.0,
+org_009,user_009,data_export,deduct,20.0,2024-11-26 00:00:00
+org_000,user_010,report_download,deduct,36.0,2024-12-15 00:00:00
+org_001,user_011,api_call,deduct,60.0,2024-11-27 00:00:00
+org_002,user_012,data_export,add,83.0,abc123
+org_003,user_013,data_export,add,58.0,
+org_004,user_014,report_download,deduct,65.0,2024-10-20 00:00:00
+org_000,user_015,data_export,add,65.0,12/22/2024 12:00 AM
+org_001,user_016,report_download,deduct,57.0,abc123
+org_002,user_017,data_export,deduct,50.0,22-11-2024
+org_003,user_018,api_call,deduct,9.0,2024-11-12 00:00:00
+org_004,user_019,data_export,deduct,33.0,not-a-date
+org_000,user_000,report_download,add,45.0,
+org_000,user_001,data_export,add,77.0,2024-12-30 00:00:00
+org_002,user_002,,deduct,17.0,
+org_003,user_003,report_download,add,83.0,1735084800
+org_004,user_004,api_call,deduct,40.0,10/24/2024 12:00 AM
+org_005,user_005,data_export,add,29.0,10/18/2024 12:00 AM
+org_006,user_006,api_call,add,,not-a-date
+org_007,user_007,api_call,add,24.0,not-a-date
+org_008,user_008,api_call,deduct,47.0,
+org_009,user_009,report_download,deduct,97.0,11/27/2024 12:00 AM
+org_000,user_010,data_export,deduct,25.0,
+org_001,user_011,data_export,deduct,100.0,abc123
+org_002,user_012,api_call,,33.0,
+org_003,user_013,report_download,add,92.0,2024-12-06 00:00:00
+org_004,user_014,api_call,deduct,58.0,12/05/2024 12:00 AM
+org_000,user_015,api_call,add,58.0,2024-11-14 00:00:00
+org_001,user_016,data_export,deduct,31.0,2024-11-19 00:00:00
+org_002,user_017,api_call,deduct,13.0,
+org_003,user_018,api_call,add,37.0,
+org_004,user_019,report_download,deduct,58.0,2024-12-18 00:00:00
+org_000,user_000,api_call,deduct,28.0,abc123
+org_000,user_001,data_export,add,100.0,11/06/2024 12:00 AM
+org_002,user_002,api_call,add,54.0,32/13/2024
+org_003,user_003,data_export,add,81.0,not-a-date
+org_004,user_004,data_export,deduct,1.0,18-12-2024
+org_005,user_005,data_export,add,86.0,2024-12-25 00:00:00
+org_006,user_006,api_call,,50.0,2024-11-30 00:00:00
+org_007,user_007,data_export,deduct,96.0,03-10-2024
+org_008,user_008,data_export,add,94.0,
+org_009,user_009,report_download,deduct,18.0,06-10-2024
+org_000,user_010,report_download,add,100.0,1735257600
+org_001,user_011,report_download,add,18.0,
+org_002,user_012,api_call,deduct,26.0,10/06/2024 12:00 AM
+org_003,user_013,data_export,deduct,66.0,32/13/2024
+org_004,user_014,report_download,add,37.0,2024-11-15 00:00:00
+org_000,user_015,data_export,,16.0,1731801600
+org_001,user_016,report_download,deduct,50.0,11/13/2024 12:00 AM
+org_002,user_017,data_export,deduct,67.0,2024-11-04 00:00:00
+org_003,user_018,api_call,deduct,78.0,32/13/2024
+org_004,user_019,api_call,deduct,85.0,07-11-2024
+org_000,user_000,report_download,deduct,22.0,1735344000
+org_000,user_001,api_call,deduct,79.0,25-11-2024
+org_002,user_002,api_call,deduct,47.0,
+org_003,user_003,api_call,add,78.0,1735171200
+org_004,user_004,api_call,add,100.0,22-12-2024
+org_005,user_005,report_download,add,78.0,
+org_006,user_006,data_export,deduct,98.0,not-a-date
+org_007,user_007,data_export,deduct,84.0,11/05/2024 12:00 AM
+org_008,user_008,report_download,add,64.0,1733443200
+org_009,user_009,api_call,deduct,100.0,
+org_000,user_010,report_download,deduct,89.0,12/02/2024 12:00 AM
+org_001,user_011,api_call,deduct,23.0,1735603200
+org_002,user_012,data_export,deduct,91.0,abc123
+org_003,user_013,api_call,add,47.0,12/05/2024 12:00 AM
+org_004,user_014,api_call,add,64.0,04-10-2024
+org_000,user_015,data_export,deduct,71.0,not-a-date
+org_001,user_016,data_export,deduct,68.0,1732233600
+org_002,user_017,api_call,add,41.0,2024-12-22 00:00:00
+org_003,user_018,,deduct,17.0,
+org_004,user_019,api_call,deduct,65.0,2024-10-08 00:00:00
+org_000,user_000,data_export,add,21.0,
+org_000,user_001,report_download,deduct,11.0,11/02/2024 12:00 AM
+org_002,user_002,data_export,add,81.0,abc123
+org_003,user_003,report_download,add,76.0,12/14/2024 12:00 AM
+org_004,user_004,report_download,deduct,73.0,2024-10-06 00:00:00
+org_005,user_005,report_download,deduct,84.0,32/13/2024
+org_006,user_006,api_call,deduct,81.0,09-12-2024
+org_007,user_007,data_export,add,88.0,21-11-2024
+org_008,user_008,report_download,add,21.0,1732579200
+org_009,user_009,api_call,deduct,78.0,19-10-2024
+org_000,user_010,data_export,deduct,52.0,17-10-2024
+org_001,user_011,api_call,deduct,31.0,2024-11-29 00:00:00
+org_002,user_012,api_call,add,13.0,07-10-2024
+org_003,user_013,data_export,add,21.0,abc123
+org_004,user_014,api_call,deduct,66.0,1732838400
+org_000,user_015,data_export,add,12.0,32/13/2024
+org_001,user_016,report_download,deduct,7.0,07-10-2024
+org_002,user_017,report_download,deduct,37.0,2024-12-08 00:00:00
+org_003,user_018,data_export,add,34.0,1731715200
+org_004,user_019,data_export,add,73.0,12/11/2024 12:00 AM
+org_000,user_000,data_export,add,50.0,1733270400
+org_000,user_001,data_export,add,17.0,1728777600
+org_002,user_002,report_download,deduct,97.0,10/19/2024 12:00 AM
+org_003,user_003,data_export,add,6.0,10/05/2024 12:00 AM
+org_004,user_004,data_export,deduct,20.0,not-a-date
+org_005,user_005,,add,51.0,
+org_006,user_006,report_download,deduct,65.0,32/13/2024
+org_007,user_007,data_export,deduct,3.0,17-11-2024
+org_008,user_008,data_export,deduct,93.0,
+org_009,user_009,data_export,deduct,84.0,not-a-date
+org_000,user_010,report_download,deduct,22.0,
+org_001,user_011,data_export,add,88.0,2024-11-01 00:00:00
+org_002,user_012,api_call,add,3.0,26-11-2024
+org_003,user_013,data_export,add,53.0,32/13/2024
+org_004,user_014,report_download,add,91.0,not-a-date
+org_000,user_015,report_download,deduct,68.0,18-11-2024
+org_001,user_016,report_download,deduct,70.0,
+org_002,user_017,report_download,deduct,79.0,12/01/2024 12:00 AM
+org_003,user_018,report_download,deduct,29.0,08-11-2024
+org_004,user_019,report_download,deduct,41.0,01-12-2024
+org_000,user_000,data_export,deduct,16.0,
+org_000,user_001,data_export,deduct,99.0,19-10-2024
+org_002,user_002,report_download,add,45.0,
+org_003,user_003,data_export,add,26.0,08-12-2024
+org_004,user_004,report_download,deduct,18.0,abc123
+org_005,user_005,api_call,add,86.0,12/07/2024 12:00 AM
+org_006,user_006,api_call,add,53.0,
+org_007,user_007,report_download,add,1.0,12/10/2024 12:00 AM
+org_008,user_008,,deduct,84.0,26-10-2024
+org_009,user_009,report_download,add,99.0,
+org_000,user_010,report_download,add,23.0,11/23/2024 12:00 AM
+org_001,user_011,data_export,deduct,24.0,2024-11-07 00:00:00
+org_002,user_012,report_download,add,43.0,1730851200
+org_003,user_013,report_download,deduct,18.0,1733270400
+org_004,user_014,api_call,deduct,21.0,
+org_000,user_015,api_call,add,95.0,13-11-2024
+org_001,user_016,api_call,add,79.0,1734739200
+org_002,user_017,report_download,deduct,12.0,
+org_003,user_018,api_call,deduct,42.0,2024-11-01 00:00:00
+org_004,user_019,api_call,deduct,97.0,04-11-2024
+org_000,user_000,report_download,add,34.0,23-12-2024
+org_000,user_001,api_call,add,60.0,11/09/2024 12:00 AM
+org_002,user_002,report_download,deduct,89.0,
+org_003,user_003,data_export,add,29.0,1729209600
+org_004,user_004,report_download,deduct,54.0,32/13/2024
+org_005,user_005,report_download,add,98.0,
+org_006,user_006,api_call,deduct,68.0,30-12-2024
+org_007,user_007,api_call,add,71.0,12/04/2024 12:00 AM
+org_008,user_008,api_call,add,42.0,1733443200
+org_009,user_009,api_call,deduct,12.0,1733356800
+org_000,user_010,data_export,add,66.0,1732320000
+org_001,user_011,report_download,deduct,87.0,
+org_002,user_012,data_export,add,96.0,not-a-date
+org_003,user_013,data_export,add,70.0,2024-10-08 00:00:00
+org_004,user_014,api_call,deduct,53.0,10/24/2024 12:00 AM
+org_000,user_015,report_download,deduct,48.0,1731888000
+org_001,user_016,data_export,add,88.0,not-a-date
+org_002,user_017,api_call,add,69.0,not-a-date
+org_003,user_018,api_call,add,39.0,
+org_004,user_019,data_export,deduct,30.0,1730419200
+org_000,user_000,data_export,add,93.0,2024-10-15 00:00:00
+org_000,user_001,data_export,add,31.0,2024-10-27 00:00:00
+org_002,user_002,api_call,deduct,77.0,
+org_003,user_003,api_call,add,52.0,11/26/2024 12:00 AM
+org_004,user_004,api_call,add,65.0,11/07/2024 12:00 AM
+org_005,user_005,report_download,deduct,74.0,
+org_006,user_006,api_call,deduct,19.0,not-a-date
+org_007,user_007,data_export,add,72.0,
+org_008,user_008,report_download,deduct,72.0,2024-12-03 00:00:00
+org_009,user_009,report_download,deduct,68.0,
+org_000,user_010,api_call,deduct,49.0,32/13/2024
+org_001,user_011,data_export,add,60.0,32/13/2024
+org_002,user_012,report_download,add,50.0,01-11-2024
+org_003,user_013,report_download,add,58.0,2024-11-17 00:00:00
+org_004,user_014,api_call,add,35.0,
+org_000,user_015,api_call,add,25.0,
+org_001,user_016,api_call,deduct,,12-11-2024
+org_002,user_017,api_call,add,95.0,
+org_003,user_018,api_call,add,51.0,32/13/2024
+org_004,user_019,data_export,deduct,69.0,23-12-2024
+org_000,user_000,data_export,deduct,60.0,
+org_000,user_001,data_export,add,48.0,1731196800
+org_002,user_002,api_call,add,3.0,abc123
+org_003,user_003,data_export,deduct,20.0,26-10-2024
+org_004,user_004,report_download,add,64.0,
+org_005,user_005,data_export,deduct,93.0,
+org_006,user_006,api_call,deduct,22.0,
+org_007,user_007,api_call,add,68.0,2024-10-05 00:00:00
+org_008,user_008,api_call,add,53.0,
+org_009,user_009,report_download,add,2.0,32/13/2024
+org_000,user_010,report_download,deduct,85.0,2024-12-02 00:00:00
+org_001,user_011,report_download,deduct,2.0,abc123
+org_002,user_012,data_export,add,65.0,
+org_003,user_013,api_call,add,68.0,10/20/2024 12:00 AM
+org_004,user_014,report_download,deduct,46.0,1730678400
+org_000,user_015,data_export,deduct,73.0,
+org_001,user_016,report_download,add,84.0,2024-12-23 00:00:00
+org_002,user_017,data_export,deduct,71.0,2024-11-30 00:00:00
+org_003,user_018,report_download,add,11.0,1733184000
+org_004,user_019,report_download,add,68.0,10/06/2024 12:00 AM
+org_000,user_000,report_download,deduct,35.0,2024-10-06 00:00:00
+org_000,user_001,report_download,add,23.0,2024-11-10 00:00:00
+org_002,user_002,api_call,deduct,10.0,11/08/2024 12:00 AM
+org_003,user_003,report_download,deduct,87.0,09-12-2024
+org_004,user_004,report_download,add,89.0,abc123
+org_005,user_005,api_call,deduct,30.0,10-10-2024
+org_006,user_006,,deduct,100.0,2024-11-11 00:00:00
+org_007,user_007,data_export,deduct,30.0,32/13/2024
+org_008,user_008,report_download,deduct,11.0,19-12-2024
+org_009,user_009,report_download,add,,11/04/2024 12:00 AM
+org_000,user_010,report_download,add,95.0,19-11-2024
+org_001,user_011,api_call,add,40.0,26-11-2024
+org_002,user_012,,add,12.0,1729728000
+org_003,user_013,report_download,deduct,14.0,2024-10-04 00:00:00
+org_004,user_014,api_call,deduct,50.0,02-10-2024
+org_000,user_015,api_call,add,74.0,12/06/2024 12:00 AM
+org_001,user_016,api_call,add,,08-11-2024
+org_002,user_017,api_call,add,56.0,1730764800
+org_003,user_018,api_call,deduct,33.0,
+org_004,user_019,report_download,add,59.0,10/14/2024 12:00 AM
+org_000,user_000,data_export,deduct,80.0,18-11-2024
+org_000,user_001,data_export,add,39.0,abc123
+org_002,user_002,data_export,add,51.0,10-11-2024
+org_003,user_003,report_download,deduct,74.0,01-11-2024
+org_004,user_004,data_export,deduct,15.0,12/12/2024 12:00 AM
+org_005,user_005,api_call,add,94.0,
+org_006,user_006,data_export,add,53.0,1735171200
+org_007,user_007,data_export,add,33.0,12/24/2024 12:00 AM
+org_008,user_008,data_export,add,58.0,1734307200
+org_009,user_009,report_download,deduct,70.0,05-10-2024
+org_000,user_010,report_download,add,14.0,
+org_001,user_011,api_call,add,73.0,
+org_002,user_012,data_export,deduct,14.0,2024-10-02 00:00:00
+org_003,user_013,report_download,add,58.0,1731801600
+org_004,user_014,report_download,add,45.0,1728000000
+org_000,user_015,data_export,add,15.0,19-10-2024
+org_001,user_016,data_export,add,67.0,01-12-2024
+org_002,user_017,data_export,deduct,41.0,09-10-2024
+org_003,user_018,api_call,add,44.0,2024-12-22 00:00:00
+org_004,user_019,report_download,add,67.0,not-a-date
+org_000,user_000,data_export,deduct,30.0,
+org_000,user_001,report_download,deduct,51.0,
+org_002,user_002,data_export,deduct,50.0,
+org_003,user_003,data_export,add,74.0,not-a-date
+org_004,user_004,api_call,deduct,15.0,
+org_005,user_005,report_download,deduct,77.0,32/13/2024
+org_006,user_006,data_export,deduct,59.0,12/19/2024 12:00 AM
+org_007,user_007,report_download,deduct,79.0,2024-12-15 00:00:00
+org_008,user_008,data_export,add,31.0,2024-11-09 00:00:00
+org_009,user_009,report_download,add,66.0,1731974400
+org_000,user_010,report_download,deduct,55.0,1729728000
+org_001,user_011,report_download,add,72.0,1729555200
+org_002,user_012,api_call,deduct,58.0,2024-12-19 00:00:00
+org_003,user_013,api_call,deduct,18.0,1729814400
+org_004,user_014,report_download,deduct,53.0,1735257600
+org_000,user_015,data_export,deduct,22.0,not-a-date
+org_001,user_016,,deduct,5.0,11/05/2024 12:00 AM
+org_002,user_017,api_call,deduct,73.0,abc123
+org_003,user_018,api_call,deduct,,09-12-2024
+org_004,user_019,api_call,deduct,70.0,1730073600
+org_001,user_000,report_download,add,39.0,1728086400
+org_001,user_001,api_call,deduct,16.0,10/31/2024 12:00 AM
+org_002,user_002,report_download,deduct,91.0,
+org_003,user_003,report_download,add,27.0,2024-10-27 00:00:00
+org_004,user_004,report_download,deduct,77.0,12/08/2024 12:00 AM
+org_005,user_005,data_export,deduct,74.0,abc123
+org_006,user_006,api_call,deduct,8.0,
+org_007,user_007,,add,19.0,31-12-2024
+org_008,user_008,report_download,deduct,63.0,abc123
+org_009,user_009,data_export,deduct,58.0,
+org_000,user_010,api_call,deduct,66.0,
+org_001,user_011,data_export,deduct,42.0,2024-12-14 00:00:00
+org_002,user_012,report_download,add,94.0,
+org_003,user_013,data_export,add,69.0,11/20/2024 12:00 AM
+org_004,user_014,data_export,deduct,,06-11-2024
+org_000,user_015,api_call,,44.0,2024-12-27 00:00:00
+org_001,user_016,report_download,deduct,3.0,10/16/2024 12:00 AM
+org_002,user_017,api_call,deduct,26.0,12/28/2024 12:00 AM
+org_003,user_018,data_export,add,36.0,
+org_004,user_019,api_call,deduct,86.0,12/23/2024 12:00 AM
+org_001,user_000,report_download,deduct,93.0,12/29/2024 12:00 AM
+org_001,user_001,api_call,add,1.0,1730073600
+org_002,user_002,report_download,add,67.0,1735257600
+org_003,user_003,report_download,deduct,16.0,
+org_004,user_004,api_call,add,50.0,
+org_005,user_005,api_call,deduct,48.0,11/08/2024 12:00 AM
+org_006,user_006,api_call,add,9.0,not-a-date
+org_007,user_007,api_call,deduct,45.0,
+org_008,user_008,data_export,deduct,28.0,2024-10-12 00:00:00
+org_009,user_009,api_call,deduct,45.0,24-11-2024
+org_000,user_010,api_call,deduct,,10/11/2024 12:00 AM
+org_001,user_011,report_download,deduct,100.0,2024-12-28 00:00:00
+org_002,user_012,data_export,add,67.0,not-a-date
+org_003,user_013,data_export,add,31.0,1733184000
+org_004,user_014,data_export,add,68.0,02-10-2024
+org_000,user_015,api_call,deduct,73.0,23-11-2024
+org_001,user_016,api_call,deduct,99.0,2024-10-10 00:00:00
+org_002,user_017,api_call,deduct,28.0,2024-10-06 00:00:00
+org_003,user_018,report_download,deduct,81.0,32/13/2024
+org_004,user_019,data_export,add,82.0,abc123
+org_001,user_000,api_call,deduct,11.0,12/05/2024 12:00 AM
+org_001,user_001,report_download,deduct,51.0,
+org_002,user_002,report_download,add,40.0,1735430400
+org_003,user_003,api_call,add,12.0,2024-11-25 00:00:00
+org_004,user_004,report_download,add,40.0,
+org_005,user_005,api_call,add,2.0,12/30/2024 12:00 AM
+org_006,user_006,api_call,deduct,45.0,abc123
+org_007,user_007,data_export,add,96.0,
+org_008,user_008,api_call,deduct,55.0,not-a-date
+org_009,user_009,report_download,add,64.0,32/13/2024
+org_000,user_010,report_download,add,48.0,21-10-2024
+org_001,user_011,report_download,add,30.0,2024-12-05 00:00:00
+org_002,user_012,api_call,add,61.0,1731715200
+org_003,user_013,api_call,add,71.0,
+org_004,user_014,api_call,deduct,32.0,
+org_000,user_015,api_call,deduct,16.0,
+org_001,user_016,api_call,add,67.0,1728172800
+org_002,user_017,data_export,deduct,42.0,32/13/2024
+org_003,user_018,api_call,deduct,73.0,
+org_004,user_019,data_export,deduct,76.0,12/03/2024 12:00 AM
+org_001,user_000,api_call,add,1.0,2024-11-22 00:00:00
+org_001,user_001,data_export,add,43.0,
+org_002,user_002,report_download,deduct,14.0,not-a-date
+org_003,user_003,api_call,add,92.0,2024-11-05 00:00:00
+org_004,user_004,report_download,deduct,90.0,1731801600
+org_005,user_005,report_download,add,65.0,
+org_006,user_006,api_call,add,56.0,12/24/2024 12:00 AM
+org_007,user_007,data_export,deduct,51.0,
+org_008,user_008,data_export,deduct,30.0,10/10/2024 12:00 AM
+org_009,user_009,report_download,add,20.0,10/14/2024 12:00 AM
+org_000,user_010,data_export,deduct,16.0,08-12-2024
+org_001,user_011,data_export,deduct,60.0,2024-11-03 00:00:00
+org_002,user_012,report_download,deduct,91.0,not-a-date
+org_003,user_013,api_call,add,92.0,01-11-2024
+org_004,user_014,api_call,deduct,34.0,2024-10-23 00:00:00
+org_000,user_015,report_download,add,13.0,2024-11-29 00:00:00
+org_001,user_016,api_call,add,8.0,10/29/2024 12:00 AM
+org_002,user_017,data_export,add,75.0,15-12-2024
+org_003,user_018,api_call,add,26.0,1734825600
+org_004,user_019,api_call,deduct,16.0,1728172800
+org_001,user_000,report_download,deduct,93.0,1732060800
+org_001,user_001,report_download,deduct,23.0,11/15/2024 12:00 AM
+org_002,user_002,data_export,deduct,58.0,2024-10-20 00:00:00
+org_003,user_003,report_download,add,83.0,1730937600
+org_004,user_004,data_export,add,12.0,1730764800
+org_005,user_005,api_call,add,81.0,2024-12-09 00:00:00
+org_006,user_006,data_export,deduct,,02-12-2024
+org_007,user_007,report_download,deduct,50.0,11/04/2024 12:00 AM
+org_008,user_008,report_download,add,4.0,2024-11-05 00:00:00
+org_009,user_009,report_download,deduct,99.0,12/14/2024 12:00 AM
+org_000,user_010,api_call,add,35.0,
+org_001,user_011,api_call,deduct,46.0,10/23/2024 12:00 AM
+org_002,user_012,data_export,deduct,76.0,
+org_003,user_013,report_download,add,73.0,1729814400
+org_004,user_014,api_call,deduct,5.0,2024-10-12 00:00:00
+org_000,user_015,api_call,add,68.0,2024-12-01 00:00:00
+org_001,user_016,api_call,add,44.0,12/31/2024 12:00 AM
+org_002,user_017,api_call,add,19.0,
+org_003,user_018,api_call,deduct,10.0,
+org_004,user_019,report_download,add,44.0,08-11-2024
+org_001,user_000,,deduct,82.0,
+org_001,user_001,report_download,deduct,29.0,not-a-date
+org_002,user_002,report_download,deduct,17.0,
+org_003,user_003,report_download,deduct,99.0,2024-12-12 00:00:00
+org_004,user_004,data_export,add,82.0,2024-12-12 00:00:00
+org_005,user_005,api_call,deduct,96.0,10/10/2024 12:00 AM
+org_006,user_006,api_call,add,,
+org_007,user_007,data_export,add,34.0,10/27/2024 12:00 AM
+org_008,user_008,data_export,deduct,14.0,2024-10-01 00:00:00
+org_009,user_009,report_download,deduct,22.0,1732233600
+org_000,user_010,data_export,deduct,13.0,abc123
+org_001,user_011,api_call,add,58.0,2024-10-10 00:00:00
+org_002,user_012,data_export,deduct,14.0,10-10-2024
+org_003,user_013,api_call,add,71.0,12-10-2024
+org_004,user_014,data_export,add,56.0,12/23/2024 12:00 AM
+org_000,user_015,api_call,add,13.0,11/12/2024 12:00 AM
+org_001,user_016,report_download,deduct,85.0,06-11-2024
+org_002,user_017,api_call,deduct,74.0,1733788800
+org_003,user_018,data_export,add,55.0,12-10-2024
+org_004,user_019,report_download,deduct,26.0,2024-10-13 00:00:00
+org_001,user_000,report_download,deduct,11.0,2024-11-30 00:00:00
+org_001,user_001,data_export,deduct,85.0,2024-11-03 00:00:00
+org_002,user_002,data_export,add,48.0,18-11-2024
+org_003,user_003,api_call,deduct,57.0,29-11-2024
+org_004,user_004,report_download,add,20.0,
+org_005,user_005,report_download,deduct,70.0,not-a-date
+org_006,user_006,data_export,deduct,69.0,1735257600
+org_007,user_007,data_export,deduct,11.0,
+org_008,user_008,report_download,add,16.0,11/27/2024 12:00 AM
+org_009,user_009,api_call,add,6.0,2024-11-24 00:00:00
+org_000,user_010,api_call,add,77.0,03-11-2024
+org_001,user_011,api_call,add,50.0,1733875200
+org_002,user_012,data_export,deduct,2.0,abc123
+org_003,user_013,api_call,deduct,20.0,abc123
+org_004,user_014,api_call,add,73.0,13-10-2024
+org_000,user_015,data_export,deduct,34.0,
+org_001,user_016,report_download,deduct,5.0,23-10-2024
+org_002,user_017,report_download,deduct,5.0,20-11-2024
+org_003,user_018,api_call,deduct,35.0,2024-11-17 00:00:00
+org_004,user_019,data_export,deduct,63.0,
+org_001,user_000,api_call,deduct,96.0,26-11-2024
+org_001,user_001,data_export,add,25.0,11/26/2024 12:00 AM
+org_002,user_002,report_download,deduct,,06-12-2024
+org_003,user_003,report_download,add,9.0,
+org_004,user_004,api_call,add,23.0,10/25/2024 12:00 AM
+org_005,user_005,api_call,add,59.0,07-10-2024
+org_006,user_006,data_export,deduct,60.0,1733270400
+org_007,user_007,report_download,add,31.0,1731801600
+org_008,user_008,api_call,deduct,76.0,10-12-2024
+org_009,user_009,data_export,add,37.0,1728000000
+org_000,user_010,report_download,add,29.0,12/22/2024 12:00 AM
+org_001,user_011,data_export,deduct,66.0,
+org_002,user_012,api_call,add,,10/02/2024 12:00 AM
+org_003,user_013,data_export,deduct,55.0,18-11-2024
+org_004,user_014,api_call,deduct,39.0,abc123
+org_000,user_015,api_call,add,66.0,24-12-2024
+org_001,user_016,report_download,deduct,39.0,2024-12-27 00:00:00
+org_002,user_017,data_export,deduct,82.0,11-11-2024
+org_003,user_018,report_download,,25.0,not-a-date
+org_004,user_019,report_download,deduct,85.0,
+org_001,user_000,api_call,deduct,38.0,1730592000
+org_001,user_001,report_download,add,75.0,not-a-date
+org_002,user_002,report_download,add,88.0,
+org_003,user_003,report_download,deduct,65.0,11/08/2024 12:00 AM
+org_004,user_004,report_download,add,38.0,1728777600
+org_005,user_005,data_export,add,88.0,
+org_006,user_006,data_export,add,96.0,1731110400
+org_007,user_007,data_export,deduct,75.0,1730937600
+org_008,user_008,data_export,add,82.0,abc123
+org_009,user_009,api_call,add,88.0,32/13/2024
+org_000,user_010,api_call,add,26.0,1731456000
+org_001,user_011,api_call,deduct,92.0,2024-10-24 00:00:00
+org_002,user_012,report_download,add,41.0,2024-12-21 00:00:00
+org_003,user_013,data_export,add,98.0,not-a-date
+org_004,user_014,api_call,add,79.0,
+org_000,user_015,data_export,deduct,50.0,2024-10-01 00:00:00
+org_001,user_016,report_download,deduct,2.0,not-a-date
+org_002,user_017,api_call,add,29.0,28-12-2024
+org_003,user_018,api_call,deduct,65.0,15-12-2024
+org_004,user_019,api_call,deduct,38.0,
+org_001,user_000,report_download,deduct,56.0,12/27/2024 12:00 AM
+org_001,user_001,data_export,add,22.0,2024-11-21 00:00:00
+org_002,user_002,report_download,,28.0,abc123
+org_003,user_003,data_export,add,49.0,21-12-2024
+org_004,user_004,report_download,add,77.0,
+org_005,user_005,api_call,add,89.0,1728950400
+org_006,user_006,api_call,deduct,61.0,12/29/2024 12:00 AM
+org_007,user_007,report_download,add,39.0,
+org_008,user_008,report_download,deduct,80.0,
+org_009,user_009,api_call,add,37.0,2024-10-15 00:00:00
+org_000,user_010,report_download,add,100.0,not-a-date
+org_001,user_011,data_export,deduct,21.0,32/13/2024
+org_002,user_012,report_download,deduct,,2024-10-31 00:00:00
+org_003,user_013,api_call,add,74.0,1735084800
+org_004,user_014,report_download,add,93.0,13-10-2024
+org_000,user_015,data_export,deduct,34.0,2024-11-29 00:00:00
+org_001,user_016,api_call,deduct,47.0,26-12-2024
+org_002,user_017,api_call,add,98.0,2024-10-06 00:00:00
+org_003,user_018,report_download,add,43.0,1731628800
+org_004,user_019,report_download,add,48.0,11/13/2024 12:00 AM
+org_001,user_000,data_export,deduct,35.0,
+org_001,user_001,data_export,add,15.0,
+org_002,user_002,api_call,add,54.0,1734220800
+org_003,user_003,report_download,deduct,24.0,1734480000
+org_004,user_004,report_download,add,88.0,1729123200
+org_005,user_005,api_call,deduct,57.0,2024-10-06 00:00:00
+org_006,user_006,data_export,add,91.0,abc123
+org_007,user_007,report_download,add,86.0,abc123
+org_008,user_008,report_download,add,56.0,
+org_009,user_009,data_export,deduct,20.0,not-a-date
+org_000,user_010,api_call,deduct,64.0,2024-10-22 00:00:00
+org_001,user_011,data_export,add,43.0,2024-11-05 00:00:00
+org_002,user_012,report_download,deduct,52.0,2024-10-31 00:00:00
+org_003,user_013,report_download,deduct,12.0,1733184000
+org_004,user_014,data_export,add,14.0,1732147200
+org_000,user_015,report_download,add,12.0,abc123
+org_001,user_016,report_download,add,84.0,1735084800
+org_002,user_017,api_call,add,59.0,abc123
+org_003,user_018,report_download,deduct,92.0,2024-11-27 00:00:00
+org_004,user_019,report_download,add,1.0,13-11-2024
+org_001,user_000,data_export,deduct,90.0,2024-10-14 00:00:00
+org_001,user_001,data_export,add,92.0,2024-11-22 00:00:00
+org_002,user_002,api_call,add,16.0,11/20/2024 12:00 AM
+org_003,user_003,report_download,deduct,14.0,2024-11-23 00:00:00
+org_004,user_004,report_download,add,99.0,1732665600
+org_005,user_005,report_download,add,64.0,abc123
+org_006,user_006,data_export,,66.0,
+org_007,user_007,report_download,add,14.0,
+org_008,user_008,data_export,deduct,54.0,
+org_009,user_009,data_export,deduct,44.0,1730937600
+org_000,user_010,api_call,deduct,78.0,
+org_001,user_011,report_download,deduct,92.0,
+org_002,user_012,api_call,deduct,88.0,
+org_003,user_013,report_download,add,65.0,
+org_004,user_014,report_download,add,98.0,32/13/2024
+org_000,user_015,report_download,deduct,87.0,08-12-2024
+org_001,user_016,api_call,add,4.0,11/18/2024 12:00 AM
+org_002,user_017,api_call,add,35.0,21-10-2024
+org_003,user_018,api_call,add,89.0,11/07/2024 12:00 AM
+org_004,user_019,api_call,deduct,58.0,abc123
+org_001,user_000,api_call,deduct,31.0,
+org_001,user_001,report_download,add,49.0,1731974400
+org_002,user_002,data_export,add,2.0,11/02/2024 12:00 AM
+org_003,user_003,data_export,add,82.0,
+org_004,user_004,report_download,add,100.0,25-10-2024
+org_005,user_005,report_download,add,24.0,
+org_006,user_006,data_export,add,55.0,32/13/2024
+org_007,user_007,report_download,deduct,1.0,1731369600
+org_008,user_008,api_call,add,42.0,2024-12-16 00:00:00
+org_009,user_009,report_download,deduct,63.0,32/13/2024
+org_000,user_010,data_export,add,24.0,2024-12-06 00:00:00
+org_001,user_011,api_call,deduct,70.0,1733616000
+org_002,user_012,api_call,add,,12-11-2024
+org_003,user_013,api_call,deduct,72.0,2024-12-23 00:00:00
+org_004,user_014,data_export,deduct,31.0,abc123
+org_000,user_015,report_download,deduct,,1728950400
+org_001,user_016,report_download,deduct,4.0,06-12-2024
+org_002,user_017,data_export,deduct,6.0,
+org_003,user_018,report_download,add,13.0,abc123
+org_004,user_019,api_call,add,86.0,12/20/2024 12:00 AM
+org_001,user_000,data_export,add,27.0,
+org_001,user_001,data_export,add,96.0,12/27/2024 12:00 AM
+org_002,user_002,report_download,deduct,,2024-10-12 00:00:00
+org_003,user_003,data_export,add,74.0,30-10-2024
+org_004,user_004,data_export,deduct,56.0,2024-11-10 00:00:00
+org_005,user_005,api_call,add,83.0,2024-12-19 00:00:00
+org_006,user_006,report_download,add,90.0,10-10-2024
+org_007,user_007,api_call,deduct,88.0,not-a-date
+org_008,user_008,data_export,deduct,51.0,2024-12-24 00:00:00
+org_009,user_009,report_download,add,18.0,32/13/2024
+org_000,user_010,data_export,deduct,2.0,not-a-date
+org_001,user_011,api_call,deduct,69.0,2024-12-10 00:00:00
+org_002,user_012,report_download,deduct,28.0,
+org_003,user_013,api_call,add,24.0,32/13/2024
+org_004,user_014,api_call,add,97.0,1733788800
+org_000,user_015,api_call,deduct,86.0,09-10-2024
+org_001,user_016,report_download,deduct,43.0,11/15/2024 12:00 AM
+org_002,user_017,api_call,add,37.0,2024-12-19 00:00:00
+org_003,user_018,data_export,deduct,58.0,abc123
+org_004,user_019,report_download,add,73.0,12-12-2024
+org_001,user_000,data_export,add,1.0,11/10/2024 12:00 AM
+org_001,user_001,report_download,deduct,36.0,11/16/2024 12:00 AM
+org_002,user_002,data_export,deduct,60.0,27-11-2024
+org_003,user_003,data_export,add,23.0,not-a-date
+org_004,user_004,api_call,add,34.0,2024-12-20 00:00:00
+org_005,user_005,api_call,add,75.0,1734134400
+org_006,user_006,api_call,add,71.0,abc123
+org_007,user_007,api_call,deduct,51.0,abc123
+org_008,user_008,api_call,,65.0,2024-12-05 00:00:00
+org_009,user_009,report_download,add,85.0,abc123
+org_000,user_010,report_download,add,58.0,10/21/2024 12:00 AM
+org_001,user_011,report_download,add,95.0,01-12-2024
+org_002,user_012,data_export,add,9.0,03-11-2024
+org_003,user_013,report_download,add,67.0,1731715200
+org_004,user_014,api_call,add,84.0,2024-11-11 00:00:00
+org_000,user_015,report_download,deduct,95.0,abc123
+org_001,user_016,data_export,deduct,47.0,
+org_002,user_017,report_download,deduct,,32/13/2024
+org_003,user_018,data_export,deduct,78.0,not-a-date
+org_004,user_019,api_call,add,66.0,22-12-2024
+org_001,user_000,api_call,add,47.0,
+org_001,user_001,report_download,add,54.0,
+org_002,user_002,report_download,deduct,62.0,not-a-date
+org_003,user_003,api_call,add,6.0,abc123
+org_004,user_004,report_download,add,74.0,2024-10-19 00:00:00
+org_005,user_005,api_call,deduct,77.0,
+org_006,user_006,report_download,deduct,11.0,1730073600
+org_007,user_007,data_export,add,29.0,not-a-date
+org_008,user_008,api_call,deduct,22.0,27-12-2024
+org_009,user_009,report_download,add,,1731888000
+org_000,user_010,,add,67.0,
+org_001,user_011,report_download,add,23.0,abc123
+org_002,user_012,report_download,add,12.0,
+org_003,user_013,report_download,add,100.0,
+org_004,user_014,data_export,deduct,6.0,32/13/2024
+org_000,user_015,data_export,deduct,76.0,not-a-date
+org_001,user_016,data_export,deduct,99.0,2024-10-30 00:00:00
+org_002,user_017,report_download,deduct,33.0,2024-10-25 00:00:00
+org_003,user_018,,add,67.0,1727740800
+org_004,user_019,report_download,deduct,53.0,2024-11-16 00:00:00
+org_001,user_000,report_download,deduct,34.0,1733616000
+org_001,user_001,report_download,deduct,88.0,11/20/2024 12:00 AM
+org_002,user_002,report_download,deduct,23.0,abc123
+org_003,user_003,data_export,deduct,100.0,1735516800
+org_004,user_004,report_download,add,96.0,1730246400
+org_005,user_005,api_call,add,28.0,1733356800
+org_006,user_006,report_download,add,21.0,
+org_007,user_007,api_call,deduct,77.0,2024-11-25 00:00:00
+org_008,user_008,api_call,deduct,11.0,2024-12-17 00:00:00
+org_009,user_009,data_export,deduct,92.0,2024-12-16 00:00:00
+org_000,user_010,report_download,deduct,57.0,10/02/2024 12:00 AM
+org_001,user_011,report_download,deduct,,abc123
+org_002,user_012,api_call,add,87.0,05-10-2024
+org_003,user_013,api_call,add,12.0,1730764800
+org_004,user_014,data_export,deduct,76.0,not-a-date
+org_000,user_015,api_call,add,71.0,
+org_001,user_016,report_download,deduct,45.0,11/05/2024 12:00 AM
+org_002,user_017,data_export,deduct,74.0,01-10-2024
+org_003,user_018,report_download,add,72.0,32/13/2024
+org_004,user_019,report_download,deduct,69.0,13-12-2024
+org_001,user_000,data_export,deduct,99.0,01-11-2024
+org_001,user_001,report_download,deduct,76.0,1728000000
+org_002,user_002,api_call,deduct,82.0,
+org_003,user_003,data_export,deduct,46.0,not-a-date
+org_004,user_004,api_call,deduct,12.0,
+org_005,user_005,api_call,add,61.0,10-11-2024
+org_006,user_006,data_export,,96.0,12/27/2024 12:00 AM
+org_007,user_007,api_call,add,95.0,31-10-2024
+org_008,user_008,api_call,add,80.0,11/15/2024 12:00 AM
+org_009,user_009,api_call,add,87.0,1734998400
+org_000,user_010,report_download,add,62.0,32/13/2024
+org_001,user_011,data_export,deduct,24.0,05-12-2024
+org_002,user_012,report_download,add,7.0,1733529600
+org_003,user_013,api_call,deduct,51.0,12/27/2024 12:00 AM
+org_004,user_014,report_download,deduct,41.0,2024-12-28 00:00:00
+org_000,user_015,api_call,deduct,75.0,13-10-2024
+org_001,user_016,data_export,add,71.0,11/03/2024 12:00 AM
+org_002,user_017,report_download,deduct,47.0,1729728000
+org_003,user_018,data_export,deduct,47.0,21-11-2024
+org_004,user_019,report_download,add,74.0,12/27/2024 12:00 AM
+org_001,user_000,report_download,,31.0,1733875200
+org_001,user_001,api_call,add,95.0,1729382400
+org_002,user_002,api_call,deduct,64.0,
+org_003,user_003,report_download,deduct,63.0,08-11-2024
+org_004,user_004,api_call,deduct,13.0,12/28/2024 12:00 AM
+org_005,user_005,data_export,deduct,81.0,1728777600
+org_006,user_006,data_export,deduct,47.0,32/13/2024
+org_007,user_007,data_export,add,45.0,not-a-date
+org_008,user_008,report_download,add,100.0,06-11-2024
+org_009,user_009,report_download,deduct,100.0,2024-11-27 00:00:00
+org_000,user_010,data_export,deduct,81.0,10/19/2024 12:00 AM
+org_001,user_011,data_export,deduct,10.0,10/11/2024 12:00 AM
+org_002,user_012,data_export,deduct,84.0,
+org_003,user_013,report_download,deduct,35.0,26-11-2024
+org_004,user_014,report_download,deduct,53.0,10/22/2024 12:00 AM
+org_000,user_015,api_call,add,85.0,
+org_001,user_016,api_call,add,22.0,2024-11-20 00:00:00
+org_002,user_017,data_export,add,4.0,not-a-date
+org_003,user_018,report_download,add,11.0,1734912000
+org_004,user_019,api_call,deduct,57.0,12/20/2024 12:00 AM
+org_001,user_000,api_call,,5.0,24-12-2024
+org_001,user_001,data_export,deduct,,32/13/2024
+org_002,user_002,report_download,add,76.0,1734307200
+org_003,user_003,report_download,deduct,68.0,
+org_004,user_004,data_export,deduct,70.0,2024-10-30 00:00:00
+org_005,user_005,data_export,deduct,34.0,20-10-2024
+org_006,user_006,report_download,add,45.0,1730851200
+org_007,user_007,report_download,deduct,97.0,01-12-2024
+org_008,user_008,data_export,deduct,77.0,2024-10-30 00:00:00
+org_009,user_009,api_call,deduct,72.0,1732492800
+org_000,user_010,report_download,deduct,49.0,29-10-2024
+org_001,user_011,report_download,add,67.0,
+org_002,user_012,data_export,deduct,53.0,2024-10-25 00:00:00
+org_003,user_013,data_export,add,82.0,32/13/2024
+org_004,user_014,report_download,deduct,25.0,2024-11-11 00:00:00
+org_000,user_015,report_download,add,24.0,14-10-2024
+org_001,user_016,report_download,deduct,94.0,10/02/2024 12:00 AM
+org_002,user_017,api_call,deduct,28.0,1731456000
+org_003,user_018,data_export,deduct,90.0,05-10-2024
+org_004,user_019,api_call,add,35.0,2024-11-20 00:00:00
+org_001,user_000,api_call,add,33.0,2024-11-18 00:00:00
+org_001,user_001,report_download,add,50.0,11/26/2024 12:00 AM
+org_002,user_002,api_call,deduct,95.0,abc123
+org_003,user_003,data_export,deduct,42.0,
+org_004,user_004,report_download,add,33.0,
+org_005,user_005,data_export,add,86.0,2024-10-28 00:00:00
+org_006,user_006,data_export,deduct,2.0,22-10-2024
+org_007,user_007,data_export,add,2.0,abc123
+org_008,user_008,report_download,add,48.0,10/12/2024 12:00 AM
+org_009,user_009,api_call,deduct,,2024-12-20 00:00:00
+org_000,user_010,report_download,add,90.0,2024-12-08 00:00:00
+org_001,user_011,api_call,deduct,72.0,22-12-2024
+org_002,user_012,report_download,add,3.0,1735344000
+org_003,user_013,api_call,deduct,6.0,
+org_004,user_014,data_export,deduct,25.0,12/12/2024 12:00 AM
+org_000,user_015,data_export,deduct,36.0,not-a-date
+org_001,user_016,api_call,deduct,38.0,32/13/2024
+org_002,user_017,report_download,deduct,94.0,2024-10-24 00:00:00
+org_003,user_018,report_download,add,42.0,
+org_004,user_019,api_call,deduct,99.0,12/10/2024 12:00 AM
+org_001,user_000,data_export,deduct,83.0,2024-11-11 00:00:00
+org_001,user_001,report_download,add,6.0,10/17/2024 12:00 AM
+org_002,user_002,api_call,add,63.0,2024-10-25 00:00:00
+org_003,user_003,report_download,deduct,85.0,abc123
+org_004,user_004,data_export,,47.0,abc123
+org_005,user_005,api_call,deduct,11.0,
+org_006,user_006,report_download,deduct,48.0,2024-12-30 00:00:00
+org_007,user_007,data_export,add,94.0,10-10-2024
+org_008,user_008,report_download,add,13.0,32/13/2024
+org_009,user_009,,add,73.0,12/20/2024 12:00 AM
+org_000,user_010,report_download,deduct,96.0,
+org_001,user_011,report_download,deduct,90.0,1735084800
+org_002,user_012,api_call,add,71.0,32/13/2024
+org_003,user_013,report_download,deduct,46.0,32/13/2024
+org_004,user_014,data_export,deduct,93.0,not-a-date
+org_000,user_015,api_call,deduct,99.0,
+org_001,user_016,data_export,deduct,51.0,
+org_002,user_017,report_download,add,67.0,18-10-2024
+org_003,user_018,api_call,add,41.0,
+org_004,user_019,report_download,add,13.0,1728086400
+org_001,user_000,api_call,deduct,47.0,12/14/2024 12:00 AM
+org_001,user_001,data_export,add,74.0,not-a-date
+org_002,user_002,report_download,deduct,62.0,1729641600
+org_003,user_003,report_download,add,77.0,22-12-2024
+org_004,user_004,report_download,deduct,11.0,08-10-2024
+org_005,user_005,data_export,add,99.0,
+org_006,user_006,api_call,deduct,7.0,not-a-date
+org_007,user_007,report_download,add,42.0,
+org_008,user_008,api_call,deduct,58.0,abc123
+org_009,user_009,data_export,deduct,51.0,10/19/2024 12:00 AM
+org_000,user_010,data_export,add,71.0,21-11-2024
+org_001,user_011,report_download,deduct,100.0,12/29/2024 12:00 AM
+org_002,user_012,data_export,add,63.0,
+org_003,user_013,report_download,add,32.0,10-10-2024
+org_004,user_014,data_export,,15.0,1735084800
+org_000,user_015,data_export,add,42.0,abc123
+org_001,user_016,data_export,add,45.0,1734480000
+org_002,user_017,data_export,add,30.0,
+org_003,user_018,report_download,add,15.0,10/07/2024 12:00 AM
+org_004,user_019,data_export,add,44.0,2024-12-28 00:00:00
+org_001,user_000,data_export,add,43.0,
+org_001,user_001,api_call,deduct,71.0,abc123
+org_002,user_002,report_download,add,49.0,
+org_003,user_003,data_export,add,8.0,11/06/2024 12:00 AM
+org_004,user_004,report_download,deduct,7.0,
+org_005,user_005,data_export,deduct,85.0,24-12-2024
+org_006,user_006,api_call,deduct,84.0,11/19/2024 12:00 AM
+org_007,user_007,report_download,add,41.0,abc123
+org_008,user_008,,deduct,72.0,2024-12-31 00:00:00
+org_009,user_009,report_download,deduct,43.0,1733097600
+org_000,user_010,api_call,deduct,88.0,15-11-2024
+org_001,user_011,,deduct,8.0,20-12-2024
+org_002,user_012,api_call,deduct,29.0,20-10-2024
+org_003,user_013,report_download,add,12.0,abc123
+org_004,user_014,report_download,add,54.0,not-a-date
+org_000,user_015,report_download,deduct,58.0,12/09/2024 12:00 AM
+org_001,user_016,api_call,add,18.0,
+org_002,user_017,api_call,deduct,99.0,
+org_003,user_018,api_call,deduct,9.0,abc123
+org_004,user_019,data_export,add,94.0,04-10-2024
+org_001,user_000,data_export,deduct,57.0,
+org_001,user_001,api_call,add,17.0,2024-10-24 00:00:00
+org_002,user_002,report_download,deduct,78.0,not-a-date
+org_003,user_003,api_call,add,46.0,
+org_004,user_004,api_call,deduct,92.0,23-12-2024
+org_005,user_005,data_export,deduct,18.0,10/21/2024 12:00 AM
+org_006,user_006,data_export,add,35.0,11/22/2024 12:00 AM
+org_007,user_007,api_call,add,9.0,1729641600
+org_008,user_008,data_export,deduct,59.0,1730419200
+org_009,user_009,api_call,deduct,93.0,1731196800
+org_000,user_010,report_download,add,67.0,1728864000
+org_001,user_011,api_call,deduct,95.0,32/13/2024
+org_002,user_012,report_download,add,25.0,1730937600
+org_003,user_013,data_export,deduct,22.0,24-11-2024
+org_004,user_014,report_download,add,60.0,1734825600
+org_000,user_015,report_download,add,24.0,
+org_001,user_016,data_export,deduct,42.0,2024-11-27 00:00:00
+org_002,user_017,report_download,add,59.0,12-10-2024
+org_003,user_018,report_download,add,92.0,2024-10-16 00:00:00
+org_004,user_019,data_export,deduct,11.0,
