@@ -16,18 +16,19 @@ import traceback
 
 def create_enhanced_cs_view(view_name: str) -> bool:
     """
-    Create enhanced Customer Success materialized view with normalized data.
+    Create enhanced Customer Success materialized view with high-level user analytics.
 
-    This view demonstrates advanced SQL joins across three tables (user_actions,
-    organizations, users) and provides detailed user engagement analytics with
-    meaningful names instead of IDs.
+    This view provides comprehensive user-level insights for customer success teams,
+    aggregating all activity per user to identify engagement patterns, credit usage,
+    and account health status.
 
     Features:
-    - Organization names and industry classifications
-    - User names, roles, and contact information
-    - Engagement level categorization (High/Medium/Low Usage)
-    - Credit efficiency metrics per action
-    - Daily activity aggregation
+    - User-level aggregation (not per-action granularity)
+    - Net credit balance and usage patterns per user
+    - Engagement categorization (Power/Active/Regular/Light User)
+    - Customer health status (At Risk, Healthy, Upsell Opportunity)
+    - Activity timeline and usage efficiency metrics
+    - Actionable insights for customer success interventions
 
     Args:
         view_name (str): Name for the materialized view to create
@@ -41,7 +42,7 @@ def create_enhanced_cs_view(view_name: str) -> bool:
     Example:
         >>> success = create_enhanced_cs_view("enhanced_customer_success_view")
         >>> if success:
-        ...     print("Enhanced CS view created successfully")
+        ...     print("High-level CS analytics view created successfully")
     """
     try:
         engine = create_engine(DB_URL)
@@ -49,66 +50,83 @@ def create_enhanced_cs_view(view_name: str) -> bool:
         CREATE_ENHANCED_CS_MV = text(f"""
             CREATE MATERIALIZED VIEW {view_name} AS
             SELECT
-                -- Time dimension
-                DATE(ua.timestamp) AS activity_date,
-                
-                -- Organization details (from normalized table)
+                -- Organization details
                 o.org_name AS organization,
                 o.industry,
                 
-                -- User details (from normalized table)
+                -- User details
                 u.user_name AS user_name,
                 u.role AS user_role,
                 u.email AS user_email,
                 
-                -- Action details
-                ua.action,
-                ua.credit_type,
+                -- Activity timeline
+                MIN(DATE(ua.timestamp)) AS first_activity_date,
+                MAX(DATE(ua.timestamp)) AS last_activity_date,
+                COUNT(DISTINCT DATE(ua.timestamp)) AS active_days,
                 
-                -- Credit calculations (note: both add/deduct show positive for usage tracking)
+                -- Credit metrics (net balance per user)
                 SUM(
                     CASE 
                         WHEN ua.action = 'add' THEN ua.credits
                         WHEN ua.action = 'deduct' THEN -ua.credits
-                        ELSE ua.credits
+                        ELSE 0
                     END
-                ) AS total_credits_used,
+                ) AS net_credit_balance,
+                
+                SUM(
+                    CASE WHEN ua.action = 'add' THEN ua.credits ELSE 0 END
+                ) AS total_credits_purchased,
+                
+                SUM(
+                    CASE WHEN ua.action = 'deduct' THEN ua.credits ELSE 0 END
+                ) AS total_credits_consumed,
                 
                 -- Activity metrics
-                COUNT(*) AS action_count,
+                COUNT(*) AS total_actions,
+                COUNT(CASE WHEN ua.action = 'add' THEN 1 END) AS purchase_actions,
+                COUNT(CASE WHEN ua.action = 'deduct' THEN 1 END) AS usage_actions,
                 
-                -- Business intelligence: User engagement categorization
+                -- Engagement categorization (based on total activity)
                 CASE 
-                    WHEN COUNT(*) >= 10 THEN 'High Usage'
-                    WHEN COUNT(*) >= 5 THEN 'Medium Usage'
-                    WHEN COUNT(*) >= 1 THEN 'Low Usage'
-                    ELSE 'No Usage'
-                END AS usage_level,
+                    WHEN COUNT(*) >= 50 THEN 'Power User'
+                    WHEN COUNT(*) >= 20 THEN 'Active User'
+                    WHEN COUNT(*) >= 5 THEN 'Regular User'
+                    WHEN COUNT(*) >= 1 THEN 'Light User'
+                    ELSE 'Inactive'
+                END AS engagement_level,
                 
-                -- Efficiency metric: Average credits per action (PostgreSQL numeric casting)
+                -- Customer success metrics
+                CASE 
+                    WHEN MAX(DATE(ua.timestamp)) < CURRENT_DATE - INTERVAL '30 days' THEN 'At Risk - Inactive'
+                    WHEN SUM(CASE WHEN ua.action = 'deduct' THEN ua.credits ELSE 0 END) = 0 THEN 'Not Using Credits'
+                    WHEN SUM(CASE WHEN ua.action = 'add' THEN ua.credits WHEN ua.action = 'deduct' THEN -ua.credits ELSE 0 END) < 0 THEN 'Low Balance - Upsell Opportunity'
+                    ELSE 'Healthy'
+                END AS customer_status,
+                
+                -- Usage efficiency
                 ROUND(
-                    (SUM(ua.credits) / NULLIF(COUNT(*), 0))::numeric, 2
-                ) AS avg_credits_per_action
+                    (SUM(CASE WHEN ua.action = 'deduct' THEN ua.credits ELSE 0 END) / 
+                     NULLIF(COUNT(DISTINCT DATE(ua.timestamp)), 0))::numeric, 2
+                ) AS avg_daily_usage
             FROM
                 user_actions ua
                 INNER JOIN organizations o ON ua.org_id = o.org_id
                 INNER JOIN users u ON ua.user_id = u.user_id
             WHERE
-                -- Data quality filters
                 ua.user_id IS NOT NULL 
                 AND ua.org_id IS NOT NULL
                 AND ua.action IS NOT NULL
-                AND ua.credit_type != 'default'  -- Exclude placeholder credit types
+                AND ua.credit_type != 'default'
             GROUP BY
-                activity_date, o.org_name, o.industry, u.user_name, u.role, u.email, ua.action, ua.credit_type
+                o.org_name, o.industry, u.user_name, u.role, u.email, ua.user_id
             ORDER BY
-                activity_date DESC, o.org_name, u.user_name;
+                total_actions DESC, o.org_name, u.user_name;
         """)
 
         # Performance indexes for common query patterns
         CREATE_ENHANCED_CS_MV_INDEX = text(f"""
             CREATE INDEX IF NOT EXISTS idx_enhanced_cs_activity_date
-            ON {view_name} (activity_date);
+            ON {view_name} (first_activity_date);
         """)
 
         CREATE_ENHANCED_CS_MV_INDEX2 = text(f"""

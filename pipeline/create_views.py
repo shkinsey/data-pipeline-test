@@ -24,48 +24,47 @@ from sqlalchemy import create_engine, text
 from config import DB_URL
 import traceback
 
-
 def create_cs_view(view_name: str) -> bool:
     """
     Create materialized view for Customer Success team requirements.
-
+    
     Creates a comprehensive daily activity view that aggregates user actions
     by date, organization, user, and action type. This allows the Customer Success
     team to understand who is using the system, for what purpose, and when,
     without needing to write complex SQL queries.
-
+    
     View Features:
     - Daily activity aggregation with date grouping
     - Credit usage tracking by action type (add/deduct)
     - User engagement classification (High/Medium/Low/No Usage)
     - Action count metrics for activity analysis
     - Data quality filters to exclude incomplete records
-
+    
     SQL Logic:
     - Groups by activity_date, org_id, user_id, action, credit_type
     - Sums credits based on action type for usage tracking
     - Counts actions to determine engagement levels
     - Filters out NULL values and default credit types
     - Orders by date DESC for recent activity first
-
+    
     Performance Optimizations:
     - Unique composite index on grouping columns
     - Materialized view for fast query execution
     - Proper WHERE clause filtering for data quality
-
+    
     Args:
         view_name (str): Name for the materialized view (e.g., 'customer_success_daily_activity')
-
+        
     Returns:
         bool: True if view created successfully, False otherwise
-
+        
     Raises:
         Exception: Database connection or SQL execution errors
-
+        
     Example:
         >>> if create_cs_view("customer_success_daily_activity"):
         ...     print("Customer Success view ready for queries")
-
+        
     Note:
         This view supports the technical test requirement for Customer Success
         to track "who is using system, for what, and when" with simple SELECT queries.
@@ -130,52 +129,52 @@ def create_cs_view(view_name: str) -> bool:
         print(f"Failed to create Customer Success view '{view_name}':")
         print(traceback.format_exc())
         return False
-
+    
 
 def create_finance_view(view_name: str) -> bool:
     """
     Create materialized view for Finance team requirements.
-
+    
     Creates a credit balance summary view that calculates total credit balances
     per organization for invoicing purposes. This allows the Finance team to
     quickly determine how much each organization owes or has in credits without
     complex aggregation queries.
-
+    
     View Features:
     - Organization-level credit balance aggregation
     - Proper credit/debit accounting logic
     - Simple structure for easy SELECT queries
     - Optimized for invoicing workflows
-
+    
     SQL Logic:
     - Groups all user actions by org_id
     - Applies accounting rules: 'add' = positive, 'deduct' = negative
     - Sums to get net credit balance per organization
     - Positive balance = credits available, Negative = amount owed
-
+    
     Business Logic:
     - 'add' actions increase organization's credit balance
     - 'deduct' actions decrease organization's credit balance
     - Final total_credits represents net balance for invoicing
-
+    
     Performance Optimizations:
     - Unique index on org_id for fast organization lookups
     - Materialized view for instant balance queries
     - Simple aggregation structure for optimal performance
-
+    
     Args:
         view_name (str): Name for the materialized view (e.g., 'finance_org_credit_balance')
-
+        
     Returns:
         bool: True if view created successfully, False otherwise
-
+        
     Raises:
         Exception: Database connection or SQL execution errors
-
+        
     Example:
         >>> if create_finance_view("finance_org_credit_balance"):
         ...     print("Finance view ready for invoicing queries")
-
+        
     Note:
         This view supports the technical test requirement for Finance team
         to get "total credit balance per organization for invoicing" with simple SELECT queries.
@@ -216,7 +215,7 @@ def create_finance_view(view_name: str) -> bool:
             conn.commit()
 
         return True
-
+    
     except Exception:
         print(f"Failed to create Finance view '{view_name}':")
         print(traceback.format_exc())

@@ -8,11 +8,7 @@ from pipeline.db import test_db_connection
 from pipeline.create_views import create_cs_view, create_finance_view
 from pipeline.check_views import check_mat_view
 from pipeline.reference_data import setup_reference_data
-from pipeline.enhanced_views import (
-    create_enhanced_cs_view,
-    create_enhanced_finance_view,
-    create_executive_summary_view,
-)
+from pipeline.enhanced_views import create_enhanced_cs_view, create_enhanced_finance_view, create_executive_summary_view
 from config import DB_URL
 import traceback
 
@@ -29,7 +25,7 @@ try:
     transformed = transform(df)
     load(transformed, "user_actions")
 
-    # Check the ETL result in the database
+    # Check the ETL result in the database 
     print("Checking table")
     check_result("user_actions")
 
@@ -42,7 +38,7 @@ try:
 
     # create enhanced views with table joins and meaningful names
     print("\nCreating enhanced views with normalized data...")
-
+    
     if create_enhanced_cs_view("enhanced_customer_success_view"):
         print("Successfully created Enhanced Customer Success View with org/user names")
 
@@ -56,7 +52,7 @@ try:
     print("\nChecking original views...")
     check_mat_view("customer_success_daily_activity")
     check_mat_view("finance_org_credit_balance")
-
+    
     print("\nChecking enhanced views...")
     check_mat_view("enhanced_customer_success_view")
     check_mat_view("enhanced_finance_view")
